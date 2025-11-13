@@ -435,7 +435,7 @@ ul {
 
 .menu-link {
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 400;
     color: rgba(0, 0, 0, 0.4);
     text-decoration: none;
     display: inline-block;
@@ -1435,7 +1435,7 @@ ul {
     }
     
     .menu-link {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     
     .menu-nav-links {
@@ -1585,7 +1585,7 @@ ul {
     
     
     .menu-link {
-        font-size: 2.25rem;
+        font-size: 2.75rem;
     }
     
     .menu-nav-links {
