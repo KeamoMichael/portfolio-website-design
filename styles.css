@@ -1257,6 +1257,9 @@ ul {
     margin-right: auto;
     padding-left: 3rem;
     padding-right: 3rem;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .footer-logo {
@@ -1266,6 +1269,9 @@ ul {
     letter-spacing: -0.06em;
     margin: 0;
     color: #000000;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .footer-column h4 {
@@ -1547,6 +1553,14 @@ ul {
         margin: 3rem auto;
         padding-left: 2rem;
         padding-right: 2rem;
+        overflow: hidden;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .footer-logo {
+        font-size: clamp(3.5rem, 12vw, 6rem);
+        max-width: 100%;
     }
     
     .footer-bottom {
@@ -1644,13 +1658,19 @@ ul {
     }
     
     .footer-logo {
-        font-size: clamp(5rem, 16vw, 7rem);
+        font-size: clamp(2.5rem, 10vw, 4rem);
+        word-break: break-word;
+        overflow-wrap: break-word;
+        max-width: 100%;
     }
     
     .footer-center {
         margin: 2rem auto;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
+        overflow: hidden;
+        width: 100%;
+        box-sizing: border-box;
     }
     
     .footer-bottom {
