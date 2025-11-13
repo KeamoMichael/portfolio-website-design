@@ -435,7 +435,8 @@ ul {
 
 .menu-link {
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: 600;
+    font-family: var(--font-primary);
     color: rgba(0, 0, 0, 0.4);
     text-decoration: none;
     display: inline-block;
