@@ -1,0 +1,13 @@
+let's start by modifying the thrive project detail page:
+
+1. project description:
+
+'We developed a modern, strategic brand identity and logo for Thrive Enterprise Solutions. Our design blends their core mission with innovative visuals, creating a consistent and memorable language that drives meaningful impact and positions them for success.'
+
+2. remove the 'website' info and 'share' info as well as 'client' info
+
+2.1 role > Lead Brand Designer & Identity Strategist
+
+2.2 Date > Jun, 2025
+
+2.3 Scope of Work > Logo Design, Brand  Identity, Company Branding

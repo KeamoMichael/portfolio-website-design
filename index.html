@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Godwillsupply. - Designing the Future</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="./assets/GWS - Logo_Minimal03.png" alt="Godwillsupply Logo" class="logo-image logo-dark" id="logo-dark">
+                <img src="./assets/GWS - Logo_Minimal.png" alt="Godwillsupply Logo" class="logo-image logo-light" id="logo-light" style="display: none;">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home"><span class="nav-link-text"><span class="nav-link-inner">Home</span><span class="nav-link-inner">Home</span></span></a></li>
+                <li><a href="#about"><span class="nav-link-text"><span class="nav-link-inner">About</span><span class="nav-link-inner">About</span></span></a></li>
+                <li><a href="work.html"><span class="nav-link-text"><span class="nav-link-inner">Work</span><span class="nav-link-inner">Work</span></span></a></li>
+                <li><a href="#services"><span class="nav-link-text"><span class="nav-link-inner">Services</span><span class="nav-link-inner">Services</span></span></a></li>
+                <li><a href="#journal"><span class="nav-link-text"><span class="nav-link-inner">Journal</span><span class="nav-link-inner">Journal</span></span></a></li>
+                <li><a href="contact.html"><span class="nav-link-text"><span class="nav-link-inner">Contact</span><span class="nav-link-inner">Contact</span></span></a></li>
+            </ul>
+            <button class="menu-toggle" id="menu-toggle">Menu</button>
+        </div>
+    </nav>
+
+    <!-- Full Screen Menu Overlay -->
+    <div class="menu-overlay" id="menu-overlay">
+        <div class="menu-overlay-header">
+            <div class="menu-logo">
+                <img src="./assets/GWS - Logo_Minimal.png" alt="Godwillsupply Logo" class="menu-logo-image">
+            </div>
+            <button class="menu-close" id="menu-close">Close</button>
+        </div>
+        <nav class="menu-nav">
+            <ul class="menu-nav-links">
+                <li><a href="#home" class="menu-link">Home</a></li>
+                <li><a href="#about" class="menu-link">About</a></li>
+                <li><a href="work.html" class="menu-link">Work</a></li>
+                <li><a href="#services" class="menu-link">Services</a></li>
+                <li><a href="#journal" class="menu-link">Journal</a></li>
+                <li><a href="contact.html" class="menu-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-copyright">
+            <p>© 2025 Godwillsupply.</p>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-image">
+            <img src="./assets/pexels-ron-lach-10138964.jpg" alt="Hero Image" class="hero-bg-image active">
+            <img src="./assets/pexels-breston-kenya-477564-6821079.jpg" alt="Hero Image" class="hero-bg-image">
+            <img src="./assets/pexels-cottonbro-4727491.jpg" alt="Hero Image" class="hero-bg-image">
+            <img src="./assets/pexels-mukula-igavinchi-443985808-15457124.jpg" alt="Hero Image" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-line">Curating design that stands</span>
+                <span class="hero-line">the test of time</span>
+            </h1>
+            <div class="hero-project-info">
+                <div class="hero-project-item active" data-image="0">
+                    <div class="hero-client-name">Client Name 1</div>
+                    <div class="hero-work-type">Branding & Identity</div>
+                </div>
+                <div class="hero-project-item" data-image="1">
+                    <div class="hero-client-name">Client Name 2</div>
+                    <div class="hero-work-type">Web Design</div>
+                </div>
+                <div class="hero-project-item" data-image="2">
+                    <div class="hero-client-name">Client Name 3</div>
+                    <div class="hero-work-type">Motion Graphics</div>
+                </div>
+                <div class="hero-project-item" data-image="3">
+                    <div class="hero-client-name">Client Name 4</div>
+                    <div class="hero-work-type">UI/UX Design</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-icon">
+                    <div class="icon-box">
+                        <img src="./assets/pexels-david-kouakou-536418893-17806641.jpg" alt="About Icon">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="about-title">At Godwillsupply, we blend 8 years of creative experience into branding, pitch decks, illustration, and motion work — all wrapped in a premium, futuristic aesthetic. From rising startups to well known brands, we craft design experiences that stand the test of time.</h2>
+                    <a href="#about" class="learn-more-link">Learn more about us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Featured projects</span>
+                <a href="work.html" class="learn-more-link">See more work</a>
+            </div>
+            <div class="projects-grid">
+                <a href="project-batsile.html" class="project-card project-large">
+                    <img src="./assets/BATSILE WORK/Batsile - Square01.jpg" alt="Batsile Botlhe Project Development">
+                    <div class="project-info">
+                        <h3>Batsile Botlhe Project Development</h3>
+                    </div>
+                </a>
+                <a href="project-thrive.html" class="project-card project-light">
+                    <img src="./assets/Work Showcase - Thrive03.jpg" alt="Thrive Enterprise Solutions">
+                    <div class="project-info">
+                        <h3>Thrive Enterprise Solutions</h3>
+                    </div>
+                </a>
+                <a href="project-hapo.html" class="project-card">
+                    <img src="./assets/HAPO WORK/Hapo Radio - Square01_01.jpg" alt="Hapo Radio">
+                    <div class="project-info">
+                        <h3>Hapo Radio</h3>
+                    </div>
+                </a>
+                <a href="project-wildhearts.html" class="project-card project-light">
+                    <img src="./assets/WILDHEARTS WORK/Wildhearts - Square06.jpg" alt="Wildhearts Foundation Africa">
+                    <div class="project-info">
+                        <h3>Wildhearts Foundation Africa</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What we do</span>
+            </div>
+            <div class="services-grid">
+                <div class="service-item">
+                    <span class="service-number">(01)</span>
+                    <div class="service-divider"></div>
+                    <h3 class="service-title">UI Design</h3>
+                    <p class="service-description">Pearl Studio is a Berlin-based design agency built by four creatives with a shared passion for bold ideas and beautiful execution.</p>
+                </div>
+                <div class="service-item">
+                    <span class="service-number">(02)</span>
+                    <div class="service-divider"></div>
+                    <h3 class="service-title">Branding</h3>
+                    <p class="service-description">We build brands that speak — bold, clear, and built for longevity. From naming to visual identity, we make sure your brand leaves a mark.</p>
+                </div>
+                <div class="service-item">
+                    <span class="service-number">(03)</span>
+                    <div class="service-divider"></div>
+                    <h3 class="service-title">Creative Strategy</h3>
+                    <p class="service-description">Great ideas start with strong thinking. We use research, positioning, and storytelling to shape strategies that move the needle.</p>
+                </div>
+                <div class="service-item">
+                    <span class="service-number">(04)</span>
+                    <div class="service-divider"></div>
+                    <h3 class="service-title">Marketing</h3>
+                    <p class="service-description">Pearl Studio is a Berlin-based design agency built by four creatives with a shared passion for bold ideas and beautiful execution.</p>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="#services" class="learn-more-link">Find out more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="clients">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Clients</span>
+            </div>
+            <h2 class="section-title">Clients who trust our work</h2>
+            <div class="clients-grid">
+                <div class="client-logo">
+                    <img src="./assets/Work Showcase - Wildhearts.png" alt="Wildhearts Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="./assets/Work Showcase - Thrive02.png" alt="Thrive Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="./assets/Logo Placeholder - Batsile.png" alt="Batsile Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="./assets/Logo Placeholder - Hapo.png" alt="Hapo Logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Approach Section -->
+    <section class="approach">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Approach</span>
+            </div>
+            <div class="approach-timeline">
+                <div class="approach-item">
+                    <h3 class="approach-title">Discover</h3>
+                    <p class="approach-description">We begin with open-ended, high-energy brainstorming sessions. This is where we challenge assumptions, ask the hard questions, and let creativity roam free.</p>
+                </div>
+                <div class="approach-item">
+                    <h3 class="approach-title">Define</h3>
+                    <p class="approach-description">We distill big ideas into sharp concepts. Whether it's a brand, a motion piece, or a pitch deck, we define the essence and intention before a single pixel is pushed.</p>
+                </div>
+                <div class="approach-item">
+                    <h3 class="approach-title">Design</h3>
+                    <p class="approach-description">Using tools like Figma and Lovable, we shape clear, premium, and modern visuals that embody strategy. No fluff — just future-facing design that speaks.</p>
+                </div>
+                <div class="approach-item">
+                    <h3 class="approach-title">Build</h3>
+                    <p class="approach-description">Our no-code arsenal (Framer, Webflow, etc.) means we go from static to stunning — fast. We prototype, animate, and launch in record time without losing quality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journal Section -->
+    <section class="journal" id="journal">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Journal</span>
+                <a href="#journal" class="learn-more-link">See more</a>
+            </div>
+            <div class="journal-grid">
+                <article class="journal-card">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&h=600&fit=crop" alt="Red flowers">
+                    <div class="journal-content">
+                        <div class="journal-content-inner">
+                            <span class="journal-date">Jun 6, 2025</span>
+                            <h3 class="journal-title">Stop Marketing Like It's 2010 — Design-Driven Marketing Wins Now</h3>
+                            <a href="#" class="journal-link">read more</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="journal-card">
+                    <img src="https://images.unsplash.com/photo-1557683316-973673baf926?w=800&h=600&fit=crop" alt="Purple gradient">
+                    <div class="journal-content">
+                        <div class="journal-content-inner">
+                            <span class="journal-date">Jun 6, 2025</span>
+                            <h3 class="journal-title">Framer Isn't Just a Tool — It's a Superpower for Fast-Moving Teams</h3>
+                            <a href="#" class="journal-link">read more</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="journal-card">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop" alt="Boat seats">
+                    <div class="journal-content">
+                        <div class="journal-content-inner">
+                            <span class="journal-date">Jun 6, 2025</span>
+                            <h3 class="journal-title">The Product Is the Brand — Why UX Design Is Your Competitive Edge</h3>
+                            <a href="#" class="journal-link">read more</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-left">
+                    <p class="footer-tagline">We craft design experiences that stand the</p>
+                    <p class="footer-tagline">test of time.</p>
+                    <p class="footer-copyright">© 2025 Godwillsupply.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="work.html">Work</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#journal">Journal</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Social</h4>
+                        <ul>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Linkedin</a></li>
+                            <li><a href="#">Dribbble</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Address</h4>
+                        <p>Dublin Landings,<br>North Dock, Dublin,<br>Ireland</p>
+                        <p class="footer-time">19:40</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-center">
+                <h2 class="footer-logo">Godwillsupply.</h2>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-designed">
+                    <span>Designed by</span>
+                    <img src="./assets/GWS - Logo_Minimal.png" alt="God Will Supply Logo" class="footer-logo-image">
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Terms and Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Refund Policy</a>
+                </div>
+                <a href="#home" class="back-to-top">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

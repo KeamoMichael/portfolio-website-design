@@ -1,0 +1,35 @@
+A) let's now modify the Wildhearts project detail page:
+
+1. project description:
+
+'In collaboration with Jahsiri Fabrics, we designed impactful packaging and poster materials for Wildhearts Foundation. This creative work supports their mission by enhancing product visibility and effectively communicating the foundation's valuable social impact.'
+
+2. Details:
+
+2.1 role > Lead Graphic Design
+
+2.2 Date > Sep, 2025
+
+2.3 Scope of Work > Packaging Design, Marketing Material Design
+
+
+B) now to modify the image gallery:
+
+1. the first image in the gallery section should be the image > 'Hapo Radio - Landscape (1st Image)'
+
+2. the 2x2 images should be like this:
+
+2.1 first row:
+
+(image 1) > 'Hapo Radio - Square01_01'
+(image 2) > 'Hapo Radio - Square03'
+
+2.2 second row:
+
+(image 3) > 'Hapo Radio - Square04'
+(image 4) > 'Hapo Radio - Square05'
+
+
+
+NB: the images i referenced are located inside the 'assets' folder inside the sub-folder 'WILDHEARTS WORK' 
+
